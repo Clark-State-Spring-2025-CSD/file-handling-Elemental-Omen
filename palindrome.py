@@ -10,8 +10,8 @@ f.close()
 
 palindrome_count = 0
 
-for word in words:
-    if word[0]== word[-1]:
+for letter in words:
+    if letter[0]== letter[-1]:
         palindrome_count += 1
     
 print(f"There are {palindrome_count} palindromes in the file.")
